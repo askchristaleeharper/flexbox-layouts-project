@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+
+    /* big container */
+    margin: 0;
+    height: 100%;
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    height: 150px;
+
+    /*header border style*/
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background: rgb(245, 195, 66);
+
+    margin-bottom: 1%;
+}
+
+.aside-main {
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* align vertically between header&footer */
+
+    /* box model */
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    /* margin-top & margin-bottom
+    are what make the space between boxes.
+
+    justify space between in body is what sticks
+    header & footer to bottom of browser window. */
+}
+
+.aside {
+
+    margin-right: 1%;
+    /* ask Guadalupe if this is in alignment w/ her creative vision 
+    (was I supposed to make space a different way) */
+
+    flex-grow: 1;
+    /*it's going to take up half as much room side-to-side as main */
+
+    /* aside border style */
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background: rgb(191, 191, 191);
+}
+
+.main {
+
+    margin-left: 1%;
+    /* ask Guadalupe if this is in alignment w/ her creative vision 
+    (was I supposed to make space a different way) */
+
+    flex-grow: 2;
+    /* it's going to take up twice as much room side-to-side as aside */
+
+    /* main border style */
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background: rgb(119, 194, 188);
+}
+
+.footer {
+    height: 150px;
+    /* footer border style */
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background: rgb(79, 173, 234);
+}

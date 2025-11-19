@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+
+body {
+
+    /* big container */
+    margin: 0;
+    height: 100%;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-content: center;
+
+
+}
+
+.header {
+
+    width:30%;
+    
+    /* header box model */
+    padding: 0;
+    /*to make some space between the text & border*/
+
+    /*header border style*/
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background-color: yellow;
+}
+
+.main {
+
+    width: 30%;
+
+    /* new */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* end of new main lines */
+
+    /* margin-top & margin-bottom in main
+    are what make the gaps between boxes.
+
+    justify space between in body is what sticks
+    header & footer to bottom of browser window.*/
+
+
+    /* main box model */
+
+    /* main border style */
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkslategray;
+    background-color: darkgrey;
+}
+
+.footer {
+
+    width: 30%;
+    
+    /* footer box model */
+
+
+    /* footer border style */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background-color: cyan;
+
+    /* footer text section */
+    /* color meter says this text isn't quite black */
+    color: rgb(38, 38, 38);
+}

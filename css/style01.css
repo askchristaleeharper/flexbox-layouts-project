@@ -1,0 +1,63 @@
+/* asterix selector selects everything */
+
+* {
+    
+    /* This browser reset 
+    helps ensure everything 
+    fills the whole browser window
+    I used height 100% 
+    instead of border-box, today */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    
+    /* box model for entire body container:
+    go from one side to the other,
+    & from top to bottom */
+    margin: 0;
+    height: 100%;
+
+    /* flex section for entire body container:
+    always start with display flex
+    or display inline flex.
+    always follow flex w/ flex direction.
+    default flex direction (row)
+    goes straight across,
+    & I need stacked boxes on top of each other,
+    so I'm using column instead of row.
+     */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.header {
+    height: 150px;
+    /*header border style*/
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background-color: rgb(245, 195, 66);
+}
+
+.main {
+    height: 150px;
+    /* main border style */
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background-color: rgb(191, 191, 191);
+}
+
+.footer {
+    height: 150px;
+    /* footer border style */
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background-color: rgb(79, 173, 234);
+}

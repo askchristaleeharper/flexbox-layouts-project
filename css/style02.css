@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    height:100%;
+}
+
+body {
+
+    /* big container */
+    margin: 0;
+    height: 100%;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+
+.header {
+    height: 150px;
+    /*header border style*/
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background-color: rgb(245, 195, 66);
+}
+
+.main {
+    height: 150px;
+    /* new */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* end of new main lines */
+
+    /* margin-top & margin-bottom in main
+    are what make the gaps between boxes.
+
+    justify space between in body is what sticks
+    header & footer to bottom of browser window.*/
+
+    /* main border style */
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background-color: rgb(191, 191, 191);
+}
+
+.footer {
+    height: 150px;
+        /* footer border style */
+    border-width: 1%;
+    border-style: solid;
+    border-color: rgb(30, 70, 94);
+    background-color: rgb(79, 173, 234);
+}
